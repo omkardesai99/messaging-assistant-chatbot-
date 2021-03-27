@@ -1,24 +1,3 @@
-#CLEANING:
-#stopword=is ,are, that, the, and, or ,how ,etc
-#remove number
-#remove punctuation
-#all letters to lower case
-
-#STEP1:
-#.lower()-- convert into lowercase 
-#.strip()-- remove white space before and after letters
-#\d+ --remove integer number
-#string library--to get all punctuation for removing
-#nltk library:-stopwords['english']=an ,the ,that, how ,is ,etc
-#.strip():- so while choosing words the 'before and after space' doesnt count
-
-
-
-
-#import tensorflow as tf
-#tf.__version__
-#pip install sqlalchemy --upgrade
-
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import os
@@ -46,12 +25,6 @@ while True:
         reply = bot.get_response(message)
         print("ChatBot:",reply)
 
-#pip install SpeechRecognition
-import speech_recognition as sr
-#pip install pyttsx3
-import pyttsx3
-
-#pip install pyaudio
 
 
 
