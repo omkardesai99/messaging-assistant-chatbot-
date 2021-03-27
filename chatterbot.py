@@ -1,7 +1,7 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import os
-#if any error for 'en' use:=  python -m spacy download en
+
 bot=ChatBot('Bot')
 trainer=ChatterBotCorpusTrainer(bot)
 
